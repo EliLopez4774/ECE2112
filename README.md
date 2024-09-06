@@ -1,7 +1,7 @@
 # EXPERIMENT 2: NUMPY LIBRARY
 This is a repository of Elijah David Lopez from 2-ECEB for the course ECE2112 for Experiment Number 2
 
-### I.OBJECTIVE
+### I. OBJECTIVE
 This experiment aims to identify the functions incorporated in Numpy Library and apply and use these different codes in creating a Python program.
 
 ### II. INSTRUCTIONS
