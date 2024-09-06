@@ -15,7 +15,7 @@ Said Problem was solved by writing the following lines of codes:
 Some insights: It used a random array, which was placed in a nested loop to run the operation of normalization depicted in the above image, and placed within an empty array, which was the product being asked for by the problem.
 
 
-#___________________________________________________________________________________
+# ___________________________________________________________________________________
 
 
 2. **__DIVISIBLE BY 3 PROBLEM:__** Create the following 10 x 10 ndarray which are the squares of the first 100 positive integers. From this ndarray, determine all the elements that are divisible by 3. Save the result as div_by_3.npy
@@ -23,4 +23,4 @@ Some insights: It used a random array, which was placed in a nested loop to run 
 Said Problem was solved by writing the following lines of codes:
 ![image](https://github.com/user-attachments/assets/9b999b8e-402a-4631-8c5f-77843b18ed37)
 
-Some Insights: This was a two-part code. The first would fill the initial 10x10 with the squares of the first 100 numbers, done with a counter multiplying within a nested loop. Then, another nested loop is run, which would check along the entire array, which is divisible by 3 (which is depicted with the modulo operation within an if-else statement). If it detects one, it would add one to the counter, which also happens to be the index of the array being filled with numbers divisible by 3, which was the array saved for it is the product asked by the problem.
+Some Insights: This was a two-part code. The first would fill the initial 10x10 with the squares of the first 100 numbers, done with a counter multiplying within a nested loop. Then, another nested loop is run, which would check along the entire array, divisible by 3 (depicted with the modulo operation within an if-else statement). If it detects one, it would add one to the counter, which also happens to be the index of the array being filled with numbers divisible by 3, which was the array saved for it is the product asked by the problem.
