@@ -1,4 +1,4 @@
-# ECE2112
+# EXPERIMENT 2: NUMPY LIBRARY
 This is a repository of Elijah David Lopez from 2-ECEB for the course ECE2112 for Experiment Number 2
 
 ### I.OBJECTIVE
