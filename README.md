@@ -15,6 +15,9 @@ Said Problem was solved by writing the following lines of codes:
 Some insights: It used a random array, which was placed in a nested loop to run the operation of normalization depicted in the above image, and placed within an empty array, which was the product being asked for by the problem.
 
 
+#___________________________________________________________________________________
+
+
 2. **__DIVISIBLE BY 3 PROBLEM:__** Create the following 10 x 10 ndarray which are the squares of the first 100 positive integers. From this ndarray, determine all the elements that are divisible by 3. Save the result as div_by_3.npy
 
 Said Problem was solved by writing the following lines of codes:
