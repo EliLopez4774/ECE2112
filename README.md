@@ -34,8 +34,7 @@ This problem, requires making a new column at the bird data frame for the averag
 
 #### ______________________________________________________________________________________
 
-### Problem 2: Create a visualization that shows how the different features contributes to average grade. Does
-chosen track in college, gender, or hometown contributes to a higher average score?
+### Problem 2: Create a visualization that shows how the different features contributes to average grade. Does chosen track in college, gender, or hometown contributes to a higher average score?
 
 The graphical representation used for the data is bar graphs, which are programmed using the mathplotlib.pyplot functions, mostly using .figure to configure the size, .bar for the kind of graph, and .title for the title of the graph, and the others use .xtick to rotate the label text for the x categories so that it won't over lap. The following are the codes and the graph produced by such codes
 
