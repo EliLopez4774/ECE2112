@@ -11,19 +11,24 @@ Example: Vis = [“Name”, “Gender”, “Track”, “Math<70”]; hometown 
 a. Filename: Instru = [“Name”, “GEAS”, “Electronics >70”]; where the track is constant as Instrumentation and Hometown Luzon
 
 For this set, it uses a basic brd.loc function to locate a row that follows multiple conditions: the student is from Instrumentation for Track, their Hometown is Luzon, and then their grade for Math is lower than 70. This problem was solved using the code:
+
 ![image](https://github.com/user-attachments/assets/862d5657-be9e-4b28-b5d9-d30462ebb346)
 
 and would result to a dataframe of:
+
 ![image](https://github.com/user-attachments/assets/ee0c1243-374a-45ac-a9db-ccfd369d0b05)
 
 
 b. Filename: Mindy = [ “Name”, “Track”, “Electronics”, “Average >=55”]; where hometown is constant as Mindanao and gender Female
-  This problem, requires making a new column at the bird data frame for the average of values of all the grades, which was done using brd['Average'] = brd[[labels]].mean(axis=1). The axis has to be one as it is the mean of the values in the row you are getting the average of. Then, using the same .loc function to locate the rows that meet the conditions being of female are the only one getting checked, and from Mindanao as their hometown and specifying that only the Name, Track, Electronics, and Average columns be displayed. 
+
+This problem, requires making a new column at the bird data frame for the average of values of all the grades, which was done using brd['Average'] = brd[[labels]].mean(axis=1). The axis has to be one as it is the mean of the values in the row you are getting the average of. Then, using the same .loc function to locate the rows that meet the conditions being of female are the only one getting checked, and from Mindanao as their hometown and specifying that only the Name, Track, Electronics, and Average columns be displayed. 
   
   This problem was solved by using the following code:
+  
   ![image](https://github.com/user-attachments/assets/8ae00568-b236-413f-9006-1f26b1afcee6)
 
   and results to the dataframe:
+  
   ![image](https://github.com/user-attachments/assets/19a5303f-39e8-43bf-b2a8-2ce3988dfc48)
 
 
